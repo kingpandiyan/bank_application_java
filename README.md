@@ -40,9 +40,9 @@ This is a Java-based console application that simulates a banking system. It all
 - Acts as a service layer between the application logic and the `UserRepository`.
 - Handles user authentication, account operations, transaction management, and cheque book requests.
 - User Management: Login, add new customers, and display user details.
--Account Operations: Check balances and transfer funds.
--Transaction Management: View user transaction history.
--Cheque Book Requests: Raise, approve, and view cheque book request statuses.
+- Account Operations: Check balances and transfer funds.
+- Transaction Management: View user transaction history.
+- Cheque Book Requests: Raise, approve, and view cheque book request statuses.
 
 ### `UserRepository`
 - Manages all user-related operations such as adding users, validating logins, and retrieving user details.
