@@ -47,6 +47,20 @@ This is a Java-based console application that simulates a banking system. It all
 - Provides getter and setter methods for all fields.
 - Overrides `toString` method for detailed transaction logs.
 
+### `UserRepository`
+- Manages all user-related operations such as adding users, validating logins, and retrieving user details.
+- Handles cheque book request operations including raising and approving requests.
+- Facilitates transaction management by performing fund transfers, debits, credits, and maintaining transaction logs.
+- Provides methods for checking account balances and printing user information.
+
+### `UserService`
+- Acts as a service layer between the application logic and the `UserRepository`.
+- Handles user authentication, account operations, transaction management, and cheque book requests.
+- User Management: Login, add new customers, and display user details.
+-Account Operations: Check balances and transfer funds.
+-Transaction Management: View user transaction history.
+-Cheque Book Requests: Raise, approve, and view cheque book request statuses.
+
 ---
 
 ## Prerequisites
